@@ -15,7 +15,9 @@ The code is tested with Python 3.5. The test results can be found in data/cluste
 ## Usage
 
 Clone the FaceNet [repo](https://github.com/davidsandberg/facenet).
+
 	Using CLI
+
 	$ git clone https://github.com/davidsandberg/facenet.git
 
 Set the python paths
