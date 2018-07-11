@@ -22,3 +22,6 @@ Set the environment variable PYTHONPATH to point to the src directory of the clo
 	
 	$ export PYTHONPATH=[...]/facenet/src
 	
+Cluster the dataset, the 200 face images of four politicians are in data/test.
+
+	$ python clustering.py --model_dir [model dir] --batch_size [batch size] --threshold [value of threshold] --iteration [number of iterations] --input_dir [input dir] --output_dir [out dir]
