@@ -16,12 +16,9 @@ The code is tested with Python 3.5. The test results can be found in data/cluste
 
 Clone the FaceNet [repo](https://github.com/davidsandberg/facenet).
 
-	Using CLI
-
 	$ git clone https://github.com/davidsandberg/facenet.git
 
-Set the python paths
-	Set the environment variable PYTHONPATH to point to the src directory of the cloned repo. [...] should be replaced with the directory where the cloned facenet repo resides.
+Set the environment variable PYTHONPATH to point to the src directory of the cloned repo. [...] should be replaced with the directory where the cloned facenet repo resides.
 	
 	$ export PYTHONPATH=[...]/facenet/src
 	
